@@ -1,4 +1,4 @@
-from airflow import DAG
+from airflow import DAG 
 from airflow.providers.amazon.aws.operators.glue import GlueJobOperator
 from airflow.sensors.external_task_sensor import ExternalTaskSensor
 from datetime import datetime, timedelta
