@@ -1,4 +1,4 @@
-{ 
+{  
             "Effect": "Allow",
             "Action": "iam:PassRole",
             "Resource": "arn:aws:iam::851725469799:role/glue-role",
